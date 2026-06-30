@@ -37,7 +37,9 @@ Models were standardized using `StandardScaler` and benchmarked using a 5-fold `
 
 ### 3. Final Production Model Evaluation & Confusion Matrix
 The top-performing algorithm (**Logistic Regression with Lasso, C=1**) was retrained on the full training dataset and achieved an outstanding **98.2% accuracy on the unseen test set**. 
+
 ![Confusion Matrix](confusion_matrix.png)
+
 
 The performance was validated via a **Confusion Matrix**:
 * **True Positives/Negatives:** 112 cases correctly identified (40 malignant, 72 benign).
@@ -63,11 +65,13 @@ Dane po standaryzacji (`StandardScaler`) poddano 5-krotnej walidacji krzyżowej 
 ### 3. Ewaluacja finalna i macierz pomyłek
 Najlepszy model (**Regresja Logistyczna z regularyzacją Lasso C=1**) po ostatecznym przetestowaniu na danych niezależnych osiągnął doskonałą **dokładność na poziomie 98%** (wzrost z 96% na walidacji). 
 
+![Confusion Matrix](confusion_matrix.png)
+
 Analiza **Macierzy Pomyłek** potwierdziła wysoką wartość diagnostyczną systemu:
 * **Poprawne dopasowania:** 112 przypadków (40 złośliwych oraz 72 łagodne).
 * **Błędy typu I (False Positives):** Tylko 2 przypadki (uznanie guza łagodnego za złośliwy).
 * **Błędy typu II (False Negatives):** **0 przypadków.** Model ani razu nie pominął nowotworu złośliwego, co jest kluczowym parametrem bezpieczeństwa w analityce medycznej.
 
-![Confusion Matrix](confusion_matrix.png)
+
 ---
 *Project implemented as a production-ready machine learning framework for biomedical data classification.*
