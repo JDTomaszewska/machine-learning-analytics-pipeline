@@ -37,12 +37,12 @@ Matplotlib
 Scikit-learn
 
 ## Model	Cross Validation Accuracy
-Logistic Regression (L1, C=1)	96.0%
-Logistic Regression (L1, C=0.5)	96.0%
-Random Forest (200 trees)	95.6%
-Random Forest (100 trees)	95.6%
-Logistic Regression (C=0.01)	93.0%
-Decision Tree	92.9%
+- Logistic Regression (L1, C=1)	96.0%
+- Logistic Regression (L1, C=0.5)	96.0%
+- Random Forest (200 trees)	95.6%
+- Random Forest (100 trees)	95.6%
+- Logistic Regression (C=0.01)	93.0%
+- Decision Tree	92.9%
 
 
 
