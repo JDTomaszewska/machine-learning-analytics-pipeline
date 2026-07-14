@@ -36,6 +36,8 @@ Matplotlib
 
 Scikit-learn
 
+---
+
 ## Model	Cross Validation Accuracy
 - Logistic Regression (L1, C=1)	96.0%
 - Logistic Regression (L1, C=0.5)	96.0%
@@ -44,7 +46,7 @@ Scikit-learn
 - Logistic Regression (C=0.01)	93.0%
 - Decision Tree	92.9%
 
-
+---
 
 ### 3. Final Production Model Evaluation & Confusion Matrix
 Accuracy
@@ -59,6 +61,7 @@ False Positives
 
 2
 
+---
 
 ## Key Insights
 • Logistic Regression achieved the best overall performance.
