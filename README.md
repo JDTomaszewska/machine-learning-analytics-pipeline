@@ -17,7 +17,7 @@ The objective was to build and evaluate classification models while minimizing F
 ## Project Files
 
 📓 **Jupyter Notebook (.ipynb)**  
-➡️ [Open notebook](analytics_pipeline.py.ipynb)
+➡️ [Open notebook](analytics%20pipeline.py)
 
 
 ---
@@ -97,17 +97,3 @@ The objective of this project was to compare multiple machine learning algorithm
 The final Logistic Regression model achieved the best balance between predictive accuracy and patient safety. By eliminating False Negatives while maintaining high overall accuracy, it proved to be the most suitable model for this binary classification task.
 
 ---
-
-## Repository Structure
-
-```
-├── breast-cancer-classification.ipynb
-├── breast-cancer-report.pdf
-├── README.md
-└── images
-    └── confusion-matrix.png
-```
-
-
-
-
