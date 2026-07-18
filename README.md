@@ -57,6 +57,8 @@ The objective of this project was to compare multiple machine learning algorithm
 - NumPy
 - Matplotlib
 - Scikit-learn
+- StandardScaler
+- StratifiedKFold
 
 ---
 
