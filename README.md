@@ -1,77 +1,112 @@
 Markdown
 
-# Machine Learning project focused on classifying breast tumors as malignant or benign using Python and scikit-learn.
+# Breast Cancer Diagnostics – Machine Learning Classification Pipeline
+
+Machine Learning project focused on classifying breast tumors as malignant or benign using Python and scikit-learn.
 
 The objective was to build and evaluate classification models while minimizing False Negatives, the most critical error in medical diagnostics.
+
 ---
-![Confusion Matrix](confusion_matrix.png)
+
+## Model Performance
+
+![Confusion Matrix](images/confusion-matrix.png)
+
+---
+
+## Project Files
+
+📓 **Jupyter Notebook (.ipynb)**  
+➡️ [Open notebook](breast-cancer-classification.ipynb)
+
+
+---
+
+## Business Problem
+
+Medical diagnosis requires highly reliable classification models.
+
+The objective of this project was to compare multiple machine learning algorithms and identify the model that achieved the highest predictive performance while eliminating False Negatives, which represent the most critical classification error in breast cancer diagnosis.
+
+---
 
 ## My Contribution
+
 ✔ Exploratory Data Analysis (EDA)
 
 ✔ Data preprocessing
 
-✔ Feature scaling (StandardScaler)
+✔ Feature scaling using StandardScaler
 
-✔ Model training
+✔ Training and comparing multiple classification models
 
 ✔ Hyperparameter tuning
 
-✔ Cross-validation
+✔ 5-fold Stratified Cross-Validation
 
-✔ Model evaluation
+✔ Model evaluation using Confusion Matrix
 
-✔ Results interpretation
+✔ Interpretation of model performance
 
 ---
 
 ## Tech Stack
-Python
 
-Pandas
-
-NumPy
-
-Matplotlib
-
-Scikit-learn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
 
 ---
 
-## Model	Cross Validation Accuracy
-- Logistic Regression (L1, C=1)	96.0%
-- Logistic Regression (L1, C=0.5)	96.0%
-- Random Forest (200 trees)	95.6%
-- Random Forest (100 trees)	95.6%
-- Logistic Regression (C=0.01)	93.0%
-- Decision Tree	92.9%
+## Models Compared
+
+| Model | Cross Validation Accuracy |
+|-------------------------------|--------------------------:|
+| Logistic Regression (L1, C=1.0) | 96.0% |
+| Logistic Regression (L1, C=0.5) | 96.0% |
+| Random Forest (200 trees) | 95.6% |
+| Random Forest (100 trees) | 95.6% |
+| Logistic Regression (L1, C=0.01) | 93.0% |
+| Decision Tree | 92.9% |
 
 ---
 
-### 3. Final Production Model Evaluation & Confusion Matrix
-Accuracy
+## Final Results
 
-98.2%
-
-False Negatives
-
-0
-
-False Positives
-
-2
+| Metric | Result |
+|--------|-------:|
+| Test Accuracy | **98.2%** |
+| False Negatives | **0** |
+| False Positives | **2** |
 
 ---
 
 ## Key Insights
-• Logistic Regression achieved the best overall performance.
 
-• Cross-validation reduced the risk of overfitting.
-
-• The final model successfully classified all malignant tumors without any False Negatives.
+- Logistic Regression achieved the highest overall performance among all evaluated models.
+- Cross-validation helped ensure model robustness and reduced the risk of overfitting.
+- The final model correctly identified every malignant tumor in the test dataset, resulting in zero False Negatives.
+- Only two benign tumors were incorrectly classified as malignant, providing a conservative and clinically safer outcome.
 
 ---
 
+## Conclusion
+
+The final Logistic Regression model achieved the best balance between predictive accuracy and patient safety. By eliminating False Negatives while maintaining high overall accuracy, it proved to be the most suitable model for this binary classification task.
+
+---
+
+## Repository Structure
+
+```
+├── breast-cancer-classification.ipynb
+├── breast-cancer-report.pdf
+├── README.md
+└── images
+    └── confusion-matrix.png
+```
 
 
 
