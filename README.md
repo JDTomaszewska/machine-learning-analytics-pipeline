@@ -10,7 +10,7 @@ The objective was to build and evaluate classification models while minimizing F
 
 ## Model Performance
 
-![Confusion Matrix](images/confusion-matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
