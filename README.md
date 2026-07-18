@@ -17,7 +17,7 @@ The objective was to build and evaluate classification models while minimizing F
 ## Project Files
 
 📓 **Jupyter Notebook (.ipynb)**  
-➡️ [Open notebook](breast-cancer-classification.ipynb)
+➡️ [Open notebook](analytics_pipeline.py.ipynb)
 
 
 ---
