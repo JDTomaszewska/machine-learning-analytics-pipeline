@@ -17,7 +17,7 @@ The objective was to build and evaluate classification models while minimizing F
 ## Project Files
 
 📓 **Jupyter Notebook (.ipynb)**  
-➡️ [Open notebook](analytics%20pipeline.py)
+➡️ [Open notebook](analytics_pipeline.py)
 
 
 ---
